@@ -1,0 +1,6 @@
+Compiling openssl 1.1.0f for iOS
+
+The instructions for compiling openssl for iOS can be found at the following link:
+
+https://github.com/leenjewel/openssl_for_ios_and_android
+

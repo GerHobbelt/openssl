@@ -1,0 +1,10 @@
+Compiling openssl 1.1.0f for Raspbian
+
+1.Download openssl 1.1.0f from openssl website
+the link: https://www.openssl.org/source/openssl-1.1.0f.tar.gz
+
+2.Config and compile openssl for Raspbian
+CROSS_COMPILE=arm-linux-gnueabihf-  ./Configure linux-armv4 no-shared no-asm zlib --prefix=target-directory
+make
+make install
+

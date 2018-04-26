@@ -1,0 +1,10 @@
+Compiling openssl 1.1.0f for MAC OSX
+
+1.Download openssl 1.1.0f from openssl website
+the link: https://www.openssl.org/source/openssl-1.1.0f.tar.gz
+
+2.Config and compile openssl for MAC OSX
+./config no-shared zlib --prefix=target-directory
+make
+make install
+

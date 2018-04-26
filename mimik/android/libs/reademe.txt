@@ -1,0 +1,5 @@
+Compiling openssl 1.1.0f for Android
+
+The instructions for compiling openssl for Android can be found at the following link:
+https://wiki.openssl.org/index.php/Android
+

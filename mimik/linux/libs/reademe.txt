@@ -1,0 +1,10 @@
+Compiling openssl 1.1.0f for Linux
+
+1.Download openssl 1.1.0f from openssl website
+the link: https://www.openssl.org/source/openssl-1.1.0f.tar.gz
+
+2.Config and compile openssl for Linux
+./Configure linux-x86_64 no-shared zlib --prefix=target-directory
+make
+make install
+
